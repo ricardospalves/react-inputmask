@@ -36,7 +36,7 @@ export const BRLField = forwardRef<BRLFieldRef, BRLFieldProps>(
       }
     }, [maskPrefix, innerRef]);
 
-    return <input {...props} ref={innerRef} />;
+    return <input inputMode="decimal" {...props} ref={innerRef} />;
   }
 );
 
