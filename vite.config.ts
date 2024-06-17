@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ["inputmask"],
   },
+  base: "/react-inputmask/",
 });
